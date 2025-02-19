@@ -19,7 +19,6 @@ app.use(cors());
 app.use(express.json());
 
 const JWT_SECRET = "secret_key"; 
-
 app.post('/register', async (req, res) => {
     const { email, username, password } = req.body;
 
