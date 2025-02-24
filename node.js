@@ -346,8 +346,6 @@ app.post('/group/:groupId/task', verifyToken, async (req, res) => {
         res.status(500).json({ message: 'Error al crear la tarea en el grupo', error: error.message });
     }
 });
-
-
 app.get('/group/:groupId/tasks', verifyToken, async (req, res) => {
     const groupId = req.params.groupId;
     const userId = req.user.uid;
