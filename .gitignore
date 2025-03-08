@@ -1,0 +1,14 @@
+# Ignorar las dependencias de Node.js
+node_modules/
+
+# Ignorar archivos de configuración de Firebase
+serviceAccountKey.json
+# Ignorar archivos de variables de entorno
+.env
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
