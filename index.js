@@ -3,7 +3,6 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const cors = require('cors');
 const admin = require('firebase-admin');
-const admin = require('firebase-admin');
 
 const serviceAccount = {
     projectId: process.env.FIREBASE_PROJECT_ID,
